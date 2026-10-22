@@ -1,0 +1,52 @@
+First: null
+Removed first: null
+Last: null
+Number of Vehicles in list: 0
+Is list empty: true
+Entire list: 
+VehicleList is empty
+Invalid boat length -8: must be between 1 and 1300
+edu.monmouth.vehicle.BoatException: Invalid boat length -8: must be between 1 and 1300
+	at edu.monmouth.vehicle.Boat.setBoatLength(Boat.java:24)
+	at edu.monmouth.vehicle.Boat.<init>(Boat.java:11)
+	at edu.monmouth.hw1.HW1.main(HW1.java:58)
+Invalid engine size -4: must be between 1 and 199
+edu.monmouth.vehicle.CarException: Invalid engine size -4: must be between 1 and 199
+	at edu.monmouth.vehicle.Car.setEngineSize(Car.java:24)
+	at edu.monmouth.vehicle.Car.<init>(Car.java:11)
+	at edu.monmouth.hw1.HW1.main(HW1.java:64)
+After inserting Vehicles: 
+VehicleList (4 vehicles):
+  1. Car [engineSize=4, powerSource=DEISEL]
+  2. Car [engineSize=12, powerSource=ELECTRICITY]
+  3. Boat [boatLength=500, powerSource=DEISEL]
+  4. Boat [boatLength=12, powerSource=GASOLINE]
+
+After adding another Vehicle to end: 
+VehicleList (5 vehicles):
+  1. Car [engineSize=4, powerSource=DEISEL]
+  2. Car [engineSize=12, powerSource=ELECTRICITY]
+  3. Boat [boatLength=500, powerSource=DEISEL]
+  4. Boat [boatLength=12, powerSource=GASOLINE]
+  5. Car [engineSize=10, powerSource=GASOLINE]
+
+First: Car [engineSize=4, powerSource=DEISEL]
+Last: Car [engineSize=10, powerSource=GASOLINE]
+Removed first: Car [engineSize=4, powerSource=DEISEL]
+list after removing first: 
+VehicleList (4 vehicles):
+  1. Car [engineSize=12, powerSource=ELECTRICITY]
+  2. Boat [boatLength=500, powerSource=DEISEL]
+  3. Boat [boatLength=12, powerSource=GASOLINE]
+  4. Car [engineSize=10, powerSource=GASOLINE]
+
+list after adding another Vehicle: 
+VehicleList (5 vehicles):
+  1. Boat [boatLength=900, powerSource=FUELOIL]
+  2. Car [engineSize=12, powerSource=ELECTRICITY]
+  3. Boat [boatLength=500, powerSource=DEISEL]
+  4. Boat [boatLength=12, powerSource=GASOLINE]
+  5. Car [engineSize=10, powerSource=GASOLINE]
+
+Number of Vehicles in list: 5
+Is list empty: false
