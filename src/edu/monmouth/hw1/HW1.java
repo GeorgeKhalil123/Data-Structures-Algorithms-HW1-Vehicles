@@ -90,5 +90,27 @@ public class HW1 {
 		System.out.println("list after adding another Vehicle: \n" + vehicleList);
 		System.out.println("Number of Vehicles in list: " + vehicleList.size());
 		System.out.println("Is list empty: " + vehicleList.isEmpty());
+		
+		
+		// new plane vehicles to be added
+		Vehicle boeing,jet, commercial;
+		boeing=new Plane("Boeing350", PowerTypes.DEISEL);
+		jet=new Plane("Jet", PowerTypes.GASOLINE);
+		commercial=new Plane("Commercial", PowerTypes.ELECTRICITY);
+		
+		// adding new vehicles to the start of the list
+		vehicleList.insert(commercial);
+		vehicleList.insert(boeing);
+		vehicleList.insert(jet);
+		
+		System.out.println("First plane: " + vehicleList.first().toString());
+		vehicleList.removeFirst();
+		System.out.println("Second plane: " + vehicleList.first().toString());
+		vehicleList.removeFirst();
+		System.out.println("Third plane: " + vehicleList.first().toString());
+		
+		
+		
+		
 	}
 }

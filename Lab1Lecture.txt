@@ -1,0 +1,76 @@
+Iterating forward through list
+Employee Type: Salary
+Yearly Salary: $30000
+
+Employee Type: Salary
+Yearly Salary: $35000
+
+Employee Type: Piece
+Rate Per Piece: $60
+Pieces Made: 2000
+
+Employee Type: Piece
+Rate Per Piece: $40
+Pieces Made: 3500
+
+Employee Type: Salary
+Yearly Salary: $100000
+
+Employee Type: Sales
+Yearly Base: $60000
+Commission: $30000
+
+
+Iterating forward here is each monthlyPay
+$2500
+
+$2916
+
+$120000
+
+$140000
+
+$8333
+
+$5000
+
+
+Iterating forward after removal
+Employee Type: Salary
+Yearly Salary: $35000
+
+Employee Type: Piece
+Rate Per Piece: $60
+Pieces Made: 2000
+
+Employee Type: Piece
+Rate Per Piece: $40
+Pieces Made: 3500
+
+Employee Type: Salary
+Yearly Salary: $100000
+
+Employee Type: Sales
+Yearly Base: $60000
+Commission: $30000
+
+
+Contents of array
+Employee Type: Salary
+Yearly Salary: $35000
+
+Employee Type: Piece
+Rate Per Piece: $60
+Pieces Made: 2000
+
+Employee Type: Piece
+Rate Per Piece: $40
+Pieces Made: 3500
+
+Employee Type: Salary
+Yearly Salary: $100000
+
+Employee Type: Sales
+Yearly Base: $60000
+Commission: $30000
+

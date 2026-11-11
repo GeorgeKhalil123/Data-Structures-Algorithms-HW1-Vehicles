@@ -60,4 +60,19 @@ public class Car implements Vehicle
 	{
 		return "Car [engineSize=" + engineSize + ", powerSource=" + powerSource + "]";
 	}
+
+	@Override
+	public boolean equals(Object obj)
+	{
+		if (this == obj)
+		{
+			return true;
+		}
+		if (obj == null || getClass() != obj.getClass())
+		{
+			return false;
+		}
+		Car other = (Car) obj;
+		return engineSize == other.engineSize && powerSource == other.powerSource;
+	}
 }

@@ -1,0 +1,303 @@
+String list isEmpty before reading file: true
+Vehicle list isEmpty before reading file: true
+
+--- Reading Vehicles.txt ---
+Strings added: 18
+
+--- Reading Hw2Output.txt ---
+Line 1 discarded "String list isEmpty before reading file: true": Expected 3 fields, found 1
+Line 2 discarded "Vehicle list isEmpty before reading file: true": Expected 3 fields, found 1
+Line 3 discarded "": Expected 3 fields, found 1
+Line 4 discarded "--- Reading strings.txt ---": Expected 3 fields, found 1
+Line 5 discarded "Strings added: 7": Expected 3 fields, found 1
+Line 6 discarded "": Expected 3 fields, found 1
+Line 7 discarded "--- Reading vehicles.txt ---": Expected 3 fields, found 1
+Line 8 discarded "Line 1 added: Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 9 discarded "Line 2 added: Boat [boatLength=100, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 10 discarded "Line 3 discarded "": Expected 3 fields, found 1": Expected 3 fields, found 2
+Line 11 discarded "Line 4 discarded "b,,": No enum constant edu.monmouth.vehicle.PowerTypes.": No enum constant edu.monmouth.vehicle.PowerTypes.
+Line 12 discarded "Line 5 discarded "d,FUELOIL,100": Unknown vehicle type "d"": For input string: "100": Unknown vehicle type "d""
+Line 13 discarded "Line 6 added: Car [engineSize=6, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 14 discarded "Line 7 discarded "b,FUELOIL, 25": For input string: " 25"": For input string: " 25": For input string: " 25""
+Line 15 discarded "Line 8 added: Car [engineSize=6, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 16 discarded "Line 9 added: Boat [boatLength=300, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 17 discarded "Line 10 discarded "b,FUELOIL,300 c,GASOLINE,9": Expected 3 fields, found 5": Expected 3 fields, found 6
+Line 18 discarded "Line 11 discarded "c,GASOLINE,-98": Invalid engine size -98: must be between 1 and 199": For input string: "-98": Invalid engine size -98: must be between 1 and 199"
+Line 19 discarded "Line 12 discarded "c,GASOLINE,20o": For input string: "20o"": For input string: "20o": For input string: "20o""
+Line 20 discarded "Line 13 discarded "c,GASOLINE": Expected 3 fields, found 2": No enum constant edu.monmouth.vehicle.PowerTypes.GASOLINE": Expected 3 fields
+Line 21 discarded "Line 14 discarded "b,FUELOIL,81902": Invalid boat length 81902: must be between 1 and 1300": For input string: "81902": Invalid boat length 81902: must be between 1 and 1300"
+Line 22 discarded "Line 15 added: Car [engineSize=10, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 23 discarded "Line 16 added: Car [engineSize=9, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 24 discarded "Line 17 added: Boat [boatLength=42, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 25 discarded "Line 18 added: Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 26 discarded "Vehicles added: 9": Expected 3 fields, found 1
+Line 27 discarded "": Expected 3 fields, found 1
+Line 28 discarded "===== String List =====": Expected 3 fields, found 1
+Line 29 discarded "isEmpty: false": Expected 3 fields, found 1
+Line 30 discarded "": Expected 3 fields, found 1
+Line 31 discarded "Iterating over the list before remove:": Expected 3 fields, found 1
+Line 32 discarded "  Monmouth University": Expected 3 fields, found 1
+Line 33 discarded "  Boardwalk": Expected 3 fields, found 1
+Line 34 discarded "  West Long Branch": Expected 3 fields, found 1
+Line 35 discarded "  Great Hall": Expected 3 fields, found 1
+Line 36 discarded "  1933": Expected 3 fields, found 1
+Line 37 discarded "  Seven Presidents": Expected 3 fields, found 1
+Line 38 discarded "  New Jersey": Expected 3 fields, found 1
+Line 39 discarded "": Expected 3 fields, found 1
+Line 40 discarded "remove(1) removed: Boardwalk": Expected 3 fields, found 1
+Line 41 discarded "Iterating over the list after remove:": Expected 3 fields, found 1
+Line 42 discarded "  Monmouth University": Expected 3 fields, found 1
+Line 43 discarded "  West Long Branch": Expected 3 fields, found 1
+Line 44 discarded "  Great Hall": Expected 3 fields, found 1
+Line 45 discarded "  1933": Expected 3 fields, found 1
+Line 46 discarded "  Seven Presidents": Expected 3 fields, found 1
+Line 47 discarded "  New Jersey": Expected 3 fields, found 1
+Line 48 discarded "": Expected 3 fields, found 1
+Line 49 discarded "add inserted: Added String": Expected 3 fields, found 1
+Line 50 discarded "Iterating over the list after add:": Expected 3 fields, found 1
+Line 51 discarded "  Monmouth University": Expected 3 fields, found 1
+Line 52 discarded "  West Long Branch": Expected 3 fields, found 1
+Line 53 discarded "  Great Hall": Expected 3 fields, found 1
+Line 54 discarded "  1933": Expected 3 fields, found 1
+Line 55 discarded "  Seven Presidents": Expected 3 fields, found 1
+Line 56 discarded "  New Jersey": Expected 3 fields, found 1
+Line 57 discarded "  Added String": Expected 3 fields, found 1
+Line 58 discarded "": Expected 3 fields, found 1
+Line 59 discarded "===== Vehicle List =====": Expected 3 fields, found 1
+Line 60 discarded "isEmpty: false": Expected 3 fields, found 1
+Line 61 discarded "": Expected 3 fields, found 1
+Line 62 discarded "Iterating over the list before remove:": Expected 3 fields, found 1
+Line 63 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 64 discarded "  Boat [boatLength=100, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 65 discarded "  Car [engineSize=6, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 66 discarded "  Car [engineSize=6, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 67 discarded "  Boat [boatLength=300, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 68 discarded "  Car [engineSize=10, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 69 discarded "  Car [engineSize=9, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 70 discarded "  Boat [boatLength=42, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 71 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 72 discarded "": Expected 3 fields, found 1
+Line 73 discarded "remove(1) removed: Boat [boatLength=100, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 74 discarded "Iterating over the list after remove:": Expected 3 fields, found 1
+Line 75 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 76 discarded "  Car [engineSize=6, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 77 discarded "  Car [engineSize=6, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 78 discarded "  Boat [boatLength=300, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 79 discarded "  Car [engineSize=10, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 80 discarded "  Car [engineSize=9, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 81 discarded "  Boat [boatLength=42, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 82 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 83 discarded "": Expected 3 fields, found 1
+Line 84 discarded "add inserted: Plane [Model=Boeing350, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 85 discarded "Iterating over the list after add:": Expected 3 fields, found 1
+Line 86 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 87 discarded "  Car [engineSize=6, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 88 discarded "  Car [engineSize=6, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 89 discarded "  Boat [boatLength=300, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 90 discarded "  Car [engineSize=10, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 91 discarded "  Car [engineSize=9, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 92 discarded "  Boat [boatLength=42, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 93 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 94 discarded "  Plane [Model=Boeing350, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 95 discarded "": Expected 3 fields, found 1
+Line 96 discarded "contains(Car [engineSize=6, powerSource=FUELOIL]): true": Expected 3 fields, found 2
+Line 97 discarded "contains(Car [engineSize=6, powerSource=ELECTRICITY]): false": Expected 3 fields, found 2
+Line 98 discarded "": Expected 3 fields, found 1
+Line 99 discarded "========== Part 2 ==========": Expected 3 fields, found 1
+Line 100 discarded "": Expected 3 fields, found 1
+Line 101 discarded "===== String List =====": Expected 3 fields, found 1
+Line 102 discarded "size(): 7": Expected 3 fields, found 1
+Line 103 discarded "": Expected 3 fields, found 1
+Line 104 discarded "ListIterator forward navigation:": Expected 3 fields, found 1
+Line 105 discarded "  Monmouth University": Expected 3 fields, found 1
+Line 106 discarded "  West Long Branch": Expected 3 fields, found 1
+Line 107 discarded "  Great Hall": Expected 3 fields, found 1
+Line 108 discarded "  1933": Expected 3 fields, found 1
+Line 109 discarded "  Seven Presidents": Expected 3 fields, found 1
+Line 110 discarded "  New Jersey": Expected 3 fields, found 1
+Line 111 discarded "  Added String": Expected 3 fields, found 1
+Line 112 discarded "": Expected 3 fields, found 1
+Line 113 discarded "ListIterator reverse navigation:": Expected 3 fields, found 1
+Line 114 discarded "  Added String": Expected 3 fields, found 1
+Line 115 discarded "  New Jersey": Expected 3 fields, found 1
+Line 116 discarded "  Seven Presidents": Expected 3 fields, found 1
+Line 117 discarded "  1933": Expected 3 fields, found 1
+Line 118 discarded "  Great Hall": Expected 3 fields, found 1
+Line 119 discarded "  West Long Branch": Expected 3 fields, found 1
+Line 120 discarded "  Monmouth University": Expected 3 fields, found 1
+Line 121 discarded "": Expected 3 fields, found 1
+Line 122 discarded "===== Vehicle List =====": Expected 3 fields, found 1
+Line 123 discarded "size(): 9": Expected 3 fields, found 1
+Line 124 discarded "": Expected 3 fields, found 1
+Line 125 discarded "ListIterator forward navigation:": Expected 3 fields, found 1
+Line 126 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 127 discarded "  Car [engineSize=6, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 128 discarded "  Car [engineSize=6, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 129 discarded "  Boat [boatLength=300, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 130 discarded "  Car [engineSize=10, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 131 discarded "  Car [engineSize=9, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 132 discarded "  Boat [boatLength=42, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 133 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 134 discarded "  Plane [Model=Boeing350, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 135 discarded "": Expected 3 fields, found 1
+Line 136 discarded "ListIterator reverse navigation:": Expected 3 fields, found 1
+Line 137 discarded "  Plane [Model=Boeing350, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 138 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 139 discarded "  Boat [boatLength=42, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 140 discarded "  Car [engineSize=9, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 141 discarded "  Car [engineSize=10, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 142 discarded "  Boat [boatLength=300, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 143 discarded "  Car [engineSize=6, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 144 discarded "  Car [engineSize=6, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 145 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 146 discarded "": Expected 3 fields, found 1
+Line 147 discarded "remove(Boat [boatLength=300, powerSource=ELECTRICITY]): true": Expected 3 fields, found 2
+Line 148 discarded "size() after remove: 8": Expected 3 fields, found 1
+Line 149 discarded "Iterating over the list after remove(Object):": Expected 3 fields, found 1
+Line 150 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 151 discarded "  Car [engineSize=6, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 152 discarded "  Car [engineSize=6, powerSource=DEISEL]": Expected 3 fields, found 2
+Line 153 discarded "  Car [engineSize=10, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 154 discarded "  Car [engineSize=9, powerSource=FUELOIL]": Expected 3 fields, found 2
+Line 155 discarded "  Boat [boatLength=42, powerSource=ELECTRICITY]": Expected 3 fields, found 2
+Line 156 discarded "  Car [engineSize=4, powerSource=GASOLINE]": Expected 3 fields, found 2
+Line 157 discarded "  Plane [Model=Boeing350, powerSource=DEISEL]": Expected 3 fields, found 2
+Vehicles added: 0
+
+===== String List =====
+isEmpty: false
+
+Iterating over the list before remove:
+  c,GASOLINE,4
+  b,GASOLINE,100
+  
+  b,,
+  d,FUELOIL,100
+  c,FUELOIL,6
+  b,FUELOIL, 25
+  c,DEISEL,6
+  b,ELECTRICITY,300
+  b,FUELOIL,300 c,GASOLINE,9
+  c,GASOLINE,-98
+  c,GASOLINE,20o
+  c,GASOLINE
+  b,FUELOIL,81902
+  c,ELECTRICITY,10
+  c,FUELOIL,9
+  b,ELECTRICITY,42
+  c,GASOLINE,4
+
+remove(1) removed: b,GASOLINE,100
+Iterating over the list after remove:
+  c,GASOLINE,4
+  
+  b,,
+  d,FUELOIL,100
+  c,FUELOIL,6
+  b,FUELOIL, 25
+  c,DEISEL,6
+  b,ELECTRICITY,300
+  b,FUELOIL,300 c,GASOLINE,9
+  c,GASOLINE,-98
+  c,GASOLINE,20o
+  c,GASOLINE
+  b,FUELOIL,81902
+  c,ELECTRICITY,10
+  c,FUELOIL,9
+  b,ELECTRICITY,42
+  c,GASOLINE,4
+
+add inserted: Added String
+Iterating over the list after add:
+  c,GASOLINE,4
+  
+  b,,
+  d,FUELOIL,100
+  c,FUELOIL,6
+  b,FUELOIL, 25
+  c,DEISEL,6
+  b,ELECTRICITY,300
+  b,FUELOIL,300 c,GASOLINE,9
+  c,GASOLINE,-98
+  c,GASOLINE,20o
+  c,GASOLINE
+  b,FUELOIL,81902
+  c,ELECTRICITY,10
+  c,FUELOIL,9
+  b,ELECTRICITY,42
+  c,GASOLINE,4
+  Added String
+
+===== Vehicle List =====
+isEmpty: true
+
+Iterating over the list before remove:
+
+Cannot remove index 1: Index: 1, Size: 0
+Iterating over the list after remove:
+
+add inserted: Plane [Model=Boeing350, powerSource=DEISEL]
+Iterating over the list after add:
+  Plane [Model=Boeing350, powerSource=DEISEL]
+
+contains(Car [engineSize=6, powerSource=FUELOIL]): false
+contains(Car [engineSize=6, powerSource=ELECTRICITY]): false
+
+========== Part 2 ==========
+
+===== String List =====
+size(): 18
+
+ListIterator forward navigation:
+  c,GASOLINE,4
+  
+  b,,
+  d,FUELOIL,100
+  c,FUELOIL,6
+  b,FUELOIL, 25
+  c,DEISEL,6
+  b,ELECTRICITY,300
+  b,FUELOIL,300 c,GASOLINE,9
+  c,GASOLINE,-98
+  c,GASOLINE,20o
+  c,GASOLINE
+  b,FUELOIL,81902
+  c,ELECTRICITY,10
+  c,FUELOIL,9
+  b,ELECTRICITY,42
+  c,GASOLINE,4
+  Added String
+
+ListIterator reverse navigation:
+  Added String
+  c,GASOLINE,4
+  b,ELECTRICITY,42
+  c,FUELOIL,9
+  c,ELECTRICITY,10
+  b,FUELOIL,81902
+  c,GASOLINE
+  c,GASOLINE,20o
+  c,GASOLINE,-98
+  b,FUELOIL,300 c,GASOLINE,9
+  b,ELECTRICITY,300
+  c,DEISEL,6
+  b,FUELOIL, 25
+  c,FUELOIL,6
+  d,FUELOIL,100
+  b,,
+  
+  c,GASOLINE,4
+
+===== Vehicle List =====
+size(): 1
+
+ListIterator forward navigation:
+  Plane [Model=Boeing350, powerSource=DEISEL]
+
+ListIterator reverse navigation:
+  Plane [Model=Boeing350, powerSource=DEISEL]
+
+remove(Boat [boatLength=300, powerSource=ELECTRICITY]): false
+size() after remove: 1
+Iterating over the list after remove(Object):
+  Plane [Model=Boeing350, powerSource=DEISEL]

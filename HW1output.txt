@@ -50,3 +50,6 @@ VehicleList (5 vehicles):
 
 Number of Vehicles in list: 5
 Is list empty: false
+First plane: Plane [Model=Jet, powerSource=GASOLINE]
+Second plane: Plane [Model=Boeing350, powerSource=DEISEL]
+Third plane: Plane [Model=Commercial, powerSource=ELECTRICITY]

@@ -60,4 +60,19 @@ public class Boat implements Vehicle
 	{
 		return "Boat [boatLength=" + boatLength + ", powerSource=" + powerSource + "]";
 	}
+
+	@Override
+	public boolean equals(Object obj)
+	{
+		if (this == obj)
+		{
+			return true;
+		}
+		if (obj == null || getClass() != obj.getClass())
+		{
+			return false;
+		}
+		Boat other = (Boat) obj;
+		return boatLength == other.boatLength && powerSource == other.powerSource;
+	}
 }
